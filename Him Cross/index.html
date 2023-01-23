@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Him Cross</title>
+    <link rel="icon" href="images/fa-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Aos animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<script>
+    	$(window).scroll(function() {    // this will work when your window scrolled.
+		var height = $(window).scrollTop();  //getting the scrolling height of window
+		if(height  > 100) {
+			$("#header").css({"position": "fixed"});
+		} else{
+			$("#header").css({"position": "relative"});
+		}
+	});
+</script>
+<body>
+    <!-- start header section -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg d-flex">
+                <a class="navbar-brand w-40" href="#"><img data-aos="fade-down" src="images/himcross-logo.png" alt="Logo"
+                        class="img-fluid header-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse w-60" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Features
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="#">Features 1</a></li>
+                                <li><a class="dropdown-item" href="#">Features 2</a></li>
+                                <li><a class="dropdown-item" href="#">Features 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blogs
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                        <div class="header-links">
+                            <i class="bi bi-search" id="head-sicon"></i>
+                            <i class="bi bi-justify"></i>
+                            <i class="bi bi-person-circle"></i>
+                            <input type="text" id="header-search">
+                        </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- start banner section -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="banner-rating">
+                        <h3>₹14,999</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12 text-end">
+                    <div class="banner-star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-right">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="banner-heading">
+                        <h2>AXQUARONZ EX19 HIMCROSSX BIKE</h2>
+                        <p class="mt-3">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-right">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="banner-features">
+                        <h3>Model :</h3>
+                        <p>HIM CASCADE DXP-1600</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="banner-features">
+                        <h3>Color :</h3>
+                        <p>MATT BLACK</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12"></div>
+            </div>
+
+            <div class="row" data-aos="fade-down">
+                <div class="col-md-12 text-center">
+                    <div class="banner-srl">
+                        <li class="ban-srrrl"></li>
+                        <p>SCROLL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start About us section -->
+    <section class="about-us py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12">
+                    <div class="about-headering text-center">
+                        <div class="about-line d-flex text-center justify-content-center" data-aos="fade-left">
+                            <li class="my-auto"></li>
+                            <h1 class="m-2">ABOUT US</h1>
+                        </div>
+                        <h1 class="m-3">WHY ARE WE DIFFERENT</h1>
+                        <h2 data-aos="fade-right">We are cyclists. It means we care about your bicycle.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-3 col-sm-6 col-xs 12">
+                    <div class="about-services text-center">
+                        <i class="bi bi-bicycle"></i>
+                        <div class="about-ser-content">
+                            <h3 class="mt-5">SERVICE</h3>
+                            <p>Be it winter, summer or rain, we have prepared customer order on time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs 12">
+                    <div class="about-services2 text-center">
+                        <i class="bi bi-star-half"></i>
+                        <div class="about-ser-content2">
+                            <h3 class="mt-5">VALUE</h3>
+                            <p>Many years of certified and experience technicians who always do their job at your given
+                                time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs 12">
+                    <div class="about-services2 text-center">
+                        <i class="bi bi-stopwatch-fill"></i>
+                        <div class="about-ser-content2">
+                            <h3 class="mt-5">TIME IMPORTANCE</h3>
+                            <p>We never annoy the customer because time is most valuable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs 12">
+                    <div class="about-services2 text-center">
+                        <i class="bi bi-bar-chart-line-fill"></i>
+                        <div class="about-ser-content2">
+                            <h3 class="mt-5">DEVOTION</h3>
+                            <p>We are very happy to see the reviews and love of all of you family nad this inspires us
+                                for our work</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start find out section -->
+    <section class="find-out py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                    <div class="left-img" data-aos="fade-right">
+                        <img src="images/find-out-more.jpg" alt="find-image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-6 col-xs-12">
+                    <div class="find-out-content">
+                        <div class="find-heading d-flex text-center justify-content-start" data-aos="fade-left">
+                            <li class="my-auto"></li>
+                            <h1 class="m-2">FIND OUT MORE</h1>
+                        </div>
+                        <h1>HIM CROSS SERVED FOT THE CUSTOMERS</h1>
+                        <div class="para-content d-flex">
+                            <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit sed do eius mod tempor incididunt
+                                ut labore et dolore magna aliqua Ut enim ad minim veniam magna aliqua eiusmod.</p>
+                            <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit sed do eius mod tempor incididunt
+                                ut labore et dolore magna aliqua Ut enim ad minim veniam magna aliqua eiusmod.</p>
+                            <hr>
+                        </div>
+
+                        <div class="find-outlist d-flex">
+                            <div class="find-inner">
+                                <h4>FRAME</h4>
+                                <p>HIM R3ACT 180MM</p>
+                                <li></li>
+                            </div>
+                            <div class="find-inner">
+                                <h4>HANDELBAR</h4>
+                                <p>CARBON BB : 35MM</p>
+                                <li></li>
+                            </div>
+                            <div class="find-inner">
+                                <h4>SHIFTER</h4>
+                                <p>HIM XTR SL-M9100</p>
+                                <li></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Counter section -->
+    <section class="counter py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12   text-center text-white">
+                    <h1>MAIN COUNTER IN PORGRESS</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Get section -->
+    <section class="get ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12 col-xs-12">
+                    <div class="get-content">
+                        <div class="get-heading d-flex text-center justify-content-start">
+                            <li class="my-auto"></li>
+                            <h1 class="m-2">FIND OUT MORE</h1>
+                        </div>
+                        <h1 class="head" data-aos="fade-right">SUBSCRIBE & GET 15% OFF</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneca feugiat purus. Duis turpis
+                            nunc aliquam idnuncac convallis dictum nisi. Curabitur vehicula tincidunt sapien velcac.
+                            Donec diam augue consequat sit amet metusac bibendum mattis massa.</p>
+                        <div class="get-form">
+                            <form action="">
+                                <input type="text" placeholder="Enter your Email..." required>
+                                <input type="submit" value="SUBSCRIBE">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 col-xs-12"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video py-5">
+        <div class="container">
+            <div class="row">
+                <h1 data-aos="fade-left"  class="heading"> <span>ALSO WATCH </span> OUT OUR WORK</h1>
+                <div class="col-md-4 col-xs-12 col-sm-12">
+                    <div class="video-box" data-aos="fade-up">
+                        <iframe autoplay muted loop width="100%" height="315"
+                            src="https://www.youtube.com/embed/loo-BRfuf34" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12">
+                    <div class="video-box" data-aos="fade-up">
+                        <iframe autoplay muted loop width="100%" height="315"
+                            src="https://www.youtube.com/embed/vvsCd1qdH8o" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12">
+                    <div class="video-box" data-aos="fade-up">
+                        <iframe autoplay muted loop width="100%" height="315"
+                            src="https://www.youtube.com/embed/lZoGOs9w664" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2-col-xs-12 col-sm-12"></div>
+                <div class="col-md-3-col-xs-12 col-sm-12">
+                    <div class="button-box">
+                        <button class="btn"> <a href="">View More</a></button>
+                    </div>
+
+                </div>
+                <div class="col-md-7-col-xs-12 col-sm-12"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+                    <div class="heading-box">
+                        <div class="servi-heading d-flex text-center justify-content-center" data-aos="fade-left">
+                            <li class="my-auto"></li>
+                            <h1 class="m-2">FIND OUT MORE</h1>
+                        </div>
+                        <h2 data-aos="fade-right"><span style="color:red ;">OUR</span> SERVICE PACKGES</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="service-box">
+                        <div class="ser-content-box">
+                            <div class="discount">
+                                <h4>DISC -20%</h4>
+                            </div>
+
+                            <h1><span>₹350</span>/MONTH</h1>
+                            <h2>BASIC</h2>
+                            <hr>
+                            <div class="list-box">
+                                <ul>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Chain Lubrication</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Lubricant Gear Cables</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Alignment of Headset</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Wheel Adjustment</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href=""> Gear TuneUp</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Hubs Checkup</a></li>
+                                </ul>
+                            </div>
+                            <div class="ser-button text-center">
+                                <button class="btn"><a href="">PURCHASE NOW</a></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="service-box">
+                        <div class="ser-content-box">
+                            <div class="discount">
+                                <h4>DISC -20%</h4>
+                            </div>
+
+                            <h1><span>₹400</span>/MONTH</h1>
+                            <h2>BASIC</h2>
+                            <hr>
+                            <div class="list-box">
+                                <ul>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Chain Lubrication</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Lubricant Gear Cables</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Alignment of Headset</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Wheel Adjustment</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href=""> Gear TuneUp</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Hubs Checkup</a></li>
+                                </ul>
+                            </div>
+                            <div class="ser-button text-center">
+                                <button class="btn"><a href="">PURCHASE NOW</a></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="service-box">
+                        <div class="ser-content-box">
+                            <div class="discount">
+                                <h4>DISC -20%</h4>
+                            </div>
+
+                            <h1><span>₹250</span>/MONTH</h1>
+                            <h2>BASIC</h2>
+                            <hr>
+                            <div class="list-box">
+                                <ul>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Chain Lubrication</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Lubricant Gear Cables</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Alignment of Headset</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Wheel Adjustment</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href=""> Gear TuneUp</a></li>
+                                    <li><i class="bi bi-chevron-double-right"></i><a href="">Hubs Checkup</a></li>
+                                </ul>
+                            </div>
+                            <div class="ser-button text-center">
+                                <button class="btn"><a href="">PURCHASE NOW</a></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col col-sm-12 col-xs-12">
+                    <div class="logo">
+                        <video autoplay muted loop src="images/HIMCROSS.mp4" width="250px" height="200px"></video>
+                        <p>HIM CROSS is a smart alternative to the traditional bicycle workshop & store.We provide the
+                            best Quality service Across Himachal. If you buy your bicycle form online and offline stores
+                            , we will fix it. We know that people live busy lives,So just a click or phone call away</p>
+                        <div class="social-icon mt-3">
+                            <h1> <span style="color: red;"> SOCIAL</span> MEDIA</h1>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col col-sm-12 col-xs-12">
+                    <div class="footer-content">
+                        <div class="row pt-5">
+                            <div class="col-md-4 col-xs-12 col-sm-12">
+                                <div class="footerlist">
+                                    <h2>WANT TO CALL WITH US ?</h2>
+                                    <div class="innerlist d-flex justify-content-start">
+                                        <div class="inner-icon">
+                                            <i class="bi bi-telephone"></i>
+                                        </div>
+                                        <div class="inner-content">
+                                            <h2>Phone</h2>
+                                            <a href="tel:9805626430">9805626430</a><br>
+                                            <a href="tel: 8219576360">(+91) 8219576360</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-xs-12 col-sm-12">
+                                <div class="footerlist">
+                                    <h2>WANT TO MAIL WITH US ?</h2>
+                                    <div class="innerlist d-flex justify-content-start">
+                                        <div class="inner-icon">
+                                            <i class="bi bi-envelope"></i>
+                                        </div>
+                                        <div class="inner-content">
+                                            <h2>Email</h2>
+                                            <a href="mailto:himcross234@gmail.com">himcross234@gmail.com</a><br>
+                                            <a href="mailto:officialhc889@gmail.com">officialhc889@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-xs-12 col-sm-12">
+                                <div class="footerlist">
+                                    <h2>WANT TO VISIT US ?</h2>
+                                    <div class="innerlist d-flex justify-content-start">
+                                        <div class="inner-icon">
+                                            <i class="bi bi-envelope"></i>
+                                        </div>
+                                        <div class="inner-content">
+                                            <h2>Location</h2>
+                                            <a href="">Shimla-Kangra Rd, Rangas,Himachal Pradesh
+                                                177048</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <div class="menu-list">
+                                    <h2>OUR SHOP</h2>
+                                    <ul>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Bikes</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Gas Stove</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Booking Form</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Bikes Part</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="menu-list">
+                                    <h2>OUR SHOPCUSTOMER SERVICE </h2>
+                                    <ul>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Privacy Policy</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Terms & Conditions</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Disclaimer</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Support</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <div class="menu-list">
+                                    <h2>OUR SHOP</h2>
+                                    <ul>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Bikes</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Gas Stove</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Booking Form</a>
+                                        </li>
+                                        <li><i class="bi bi-caret-right-fill"></i>
+                                            <a href="#">Bikes Part</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-4" style="border-top:1px soild white ;">
+                <div class="col-md-6 col-xs-6 col-xs-12">
+                    <div class="copyright">
+                        <a href="">WARRANTYTERMS</a> <span class="text-white">&</span> <a href="">CONDITIONSPRIVACY <a href=""> POLICYWARRANTY</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6 col-xs-12 text-end">
+                    <div class=" copyright">
+                    <p class="text-white">All Rights Reserved. © himcross.com 2022</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- serach bar -->
+    <!-- <section>
+        <div class="container">
+            <div id="header-search">
+                <div class="gcse-search">
+                    <div style="border: 1px solid blue;">
+                        <div class="gcse-searchbox" ta></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section> -->
+
+
+    <!-- Search Baar -->
+    <script async src="https://cse.google.com/cse.js?cx=000888210889775888983:pqb3ch1ewhg"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

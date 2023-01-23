@@ -1,0 +1,735 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* ===============Start Header Css ========================*/
+
+
+
+/* ================== */
+header#header {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.header-logo {
+    width: 100% !important;
+}
+
+a.navbar-brand.w-40 {
+    width: 35%;
+}
+
+div#navbarSupportedContent {
+    width: 75%;
+}
+
+div#navbarSupportedContent ul li a {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 15px;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+div#navbarSupportedContent ul li a:active {
+    color: red;
+}
+
+div#navbarSupportedContent ul li a:hover {
+    color: red;
+}
+
+ul.dropdown-menu.show li a {
+    padding: 2px 30px 5px 10px !important;
+    color: black !important;
+    font-size: 20px !important;
+}
+
+ul.dropdown-menu.show li a:hover {
+    background-color: red;
+    color: white !important;
+}
+
+input#header-search {
+    border: none;
+    border-bottom: 1px solid red;
+    background: #ffffff00;
+    transition: 1.2s;
+    width: 25%;
+    color: white;
+    padding: 3px 5px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    left: 83%;
+    animation-name: headersearch;
+    animation-delay: 3s;
+}
+
+@keyframes headersearch {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 25%;
+    }
+
+}
+
+input#header-search:focus-visible {
+    border: noon;
+    border-bottom: 1px solid red;
+}
+
+div#navbarSupportedContent .header-links .bi {
+    font-size: 22px;
+    padding: 0px 7px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: white;
+}
+
+div#navbarSupportedContent .header-links .bi:hover {
+    transform: rotateY(180deg);
+    color: red;
+    cursor: pointer;
+}
+
+div#navbarSupportedContent .header-links {
+    margin-left: 50px;
+}
+
+/* =============== Start Banner Css ========================*/
+section#banner {
+    background-image: url(../images/ct1sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    padding: 150px 0px 50px 0px;
+    box-shadow: inset 10px 10px 100px 100px black;
+}
+
+.banner-rating h3 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.banner-star .bi {
+    color: red;
+    cursor: pointer;
+    margin: 0px 4px;
+}
+
+.banner-heading h2 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.banner-heading p {
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: white;
+}
+
+.banner-features h3 {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.banner-features p {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.banner-srl p {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.banner-srl li.ban-srrrl {
+    height: 65px;
+    list-style: none;
+    border: 1px solid red;
+    background: red;
+    width: 3px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+
+/* =======Start About Css */
+section.about-us {
+    /* box-shadow: inset 4px 20px 200px 128px black; */
+    background-color: black;
+}
+
+.about-headering .about-line li {
+    height: 3px;
+    list-style: none;
+    border: 1px solid red;
+    background: red;
+    width: 89px;
+    border-radius: 5px;
+}
+
+.about-headering .about-line h1 {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+
+}
+
+.about-headering h1:hover {
+    transform: translateY(-10px);
+}
+
+.about-headering h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+.about-headering h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+
+.about-services .bi {
+    color: white;
+    font-size: 60px;
+    border: 1px solid red;
+    padding: 25px 60px;
+}
+
+.about-services .about-ser-content h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.about-services .about-ser-content p {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #8b8b8b;
+    transition: 0.5s;
+}
+
+.about-services .about-ser-content p:hover {
+    color: white;
+}
+
+.about-services2 .about-ser-content2 p {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #8b8b8b;
+    transition: 0.5s;
+}
+
+.about-services2 .about-ser-content2 p:hover {
+    color: white;
+}
+
+.about-services2 .bi {
+    color: white;
+    font-size: 60px;
+    border: 1px solid #310000;
+    padding: 25px 60px;
+    transition: 0.5s;
+}
+
+.about-services2 .bi:hover {
+    border: 1px solid red;
+}
+
+.about-services2 .about-ser-content2 h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+
+/* =========Start Find out Section Css=========== */
+.find-out-content .find-heading li {
+    height: 3px;
+    list-style: none;
+    border: 1px solid red;
+    background: red;
+    width: 89px;
+    border-radius: 5px;
+}
+
+.find-out-content .find-heading h1 {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.find-out-content h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 52px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+
+.find-out-content .para-content p {
+    color: #8b8b8b;
+    ;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px 15px 35px 0;
+    transition: 0.5s;
+}
+
+.find-out-content .para-content p:hover {
+    color: white;
+}
+
+.find-outlist .find-inner li {
+    height: 3px;
+    list-style: none;
+    border: 1px solid #310000;
+    background: rgb(49, 9, 9);
+    width: 77%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.find-outlist .find-inner:hover li {
+    border: 1px solid red;
+    background: red;
+
+}
+
+.find-outlist .find-inner {
+    width: 33.33%;
+}
+
+.find-outlist .find-inner h4 {
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+
+.find-outlist .find-inner p {
+    font-size: 19px;
+    color: #676163;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+
+
+/* =========Start Fet More Section Css=========== */
+.get-content .get-heading li {
+    height: 3px;
+    list-style: none;
+    border: 1px solid red;
+    background: red;
+    width: 89px;
+    border-radius: 5px;
+}
+
+.get-content .get-heading h1 {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.get-content h1.head {
+    color: white;
+    font-size: 55px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.get-content p {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 100;
+}
+
+.get-content .get-form input[type="text"] {
+    padding: 15px;
+    width: 70%;
+    background: white;
+    border: none;
+    border: 1px solid white;
+    font-family: oswald;
+    transition: 0.5s;
+}
+
+.get-content .get-form input[type="text"]:hover {
+    border: 1px solid red;
+}
+
+.get-content .get-form input[type="submit"] {
+    padding: 15px;
+    width: 23%;
+    height: 100%;
+    border: none;
+    background: red;
+    border: 1px solid red;
+    color: white;
+    font-weight: 400;
+    font-family: oswald;
+}
+
+section.get {
+    background-image: url(../images/subscribe-box-image-him-cross.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 65px 0px 50px 0px;
+    box-shadow: inset -100px 1px 100px 100px black;
+}
+
+/* =========Start Video Section Css=========== */
+.video-box iframe {
+    background: #240606;
+    padding: 1px;
+    transition: 0.5s;
+}
+
+.video-box iframe:hover {
+    background: red;
+}
+
+section.video h1.heading {
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+section.video h1.heading span {
+    color: red;
+}
+
+
+/* =========Start Big Image Section Css=========== */
+section.main-img {
+    background-image: url(../images/carter-moorse-aF6BlwTu1DQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    box-shadow: inset 1px 200px 400px 50px black;
+}
+
+section.main-img .col-md-3-col-xs-12.col-sm-12 {
+    position: relative;
+}
+
+section.main-img .col-md-3-col-xs-12.col-sm-12 .button-box {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+section.main-img .button-box button.btn a{
+    text-decoration: none;
+    color: white;
+}
+section.main-img .button-box button.btn {
+    border: 1px solid red;
+    padding: 13px 35px;
+    border-radius: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Oswald';
+    transition: 0.5s;
+    cursor: pointer;
+    animation-name: paralxbtn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes paralxbtn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-3deg);
+    }
+
+    20% {
+        transform: rotate(3deg);
+    }
+
+    30% {
+        transform: rotate(-3deg);
+    }
+
+    40% {
+        transform: rotate(3deg);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    60% {
+        transform: rotate(2deg);
+    }
+
+    70% {
+        transform: rotate(-3deg);
+    }
+
+    80% {
+        transform: rotate(3deg);
+    }
+
+    90% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+section.main-img .button-box button.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+/* =========Start Services  Section Css=========== */
+.services .heading-box  .servi-heading li {
+    height: 3px;
+    list-style: none;
+    border: 1px solid red;
+    background: red;
+    width: 89px;
+    border-radius: 5px;
+}
+
+.services .heading-box .servi-heading h1 {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+.services .heading-box  h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+section.services .ser-content-box {
+    padding: 20px 30px;
+    border: 1px solid rgb(41, 6, 6);
+    transition: all 0.3s ease;
+}
+section.services .ser-content-box:hover {
+    border: 1px solid red;
+}
+section.services .ser-content-box .discount h4 {
+    color: #ffff;
+    font-size: 12px;
+    width: 40%;
+    padding: 4px 15px 4px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: red solid;
+    background-color: red;
+    margin-bottom: 20px;
+}
+section.services .ser-content-box .discount {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+section.services .ser-content-box h1 {
+    color: #c2c2c2a7;
+    font-size: 20px;
+    font-weight: lighter;
+}
+section.services .ser-content-box h1 span {
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 54px;
+}
+section.services .ser-content-box h2 {
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 5px;
+}
+section.services .ser-content-box .list-box li {
+    list-style: none;
+    margin-left: -28px;
+    margin-bottom: 15px;
+}
+section.services .ser-content-box .list-box li a {
+    list-style: none;
+    color: #ffffffef;
+    font-weight: lighter;
+    font-family: oswald;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+section.services .ser-content-box .list-box li a:hover {
+    color: red;
+}
+section.services .ser-content-box .list-box li .bi {
+    color: red;
+    margin-right: 10px;
+}
+section.services .ser-content-box .ser-button.text-center button.btn a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+section.services .ser-content-box .ser-button.text-center button.btn {
+    background: red;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 13px;
+    transition: all 0.7s ease;
+}
+section.services .ser-content-box .ser-button.text-center button.btn:hover {
+transform: translateY(-15px);
+}
+
+
+/* =========Start footer  Section Css=========== */
+footer .logo p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #898989;
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .social-icon h1 {
+    font-size: 35px;
+    margin: 20px 0;
+    color: white;
+}
+footer .social-icon .bi {
+    font-size: 20px;
+    color: white;
+    border: 1px solid #460d0d;
+    padding: 8px;
+    margin: 0px 6px;
+    transition: 0.3s;
+}
+footer .social-icon .bi:hover {
+    transform: skew(10px);
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.footerlist h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.innerlist .inner-content h2 {
+    font-size: 34px;
+    font-weight: 400;
+}
+.inner-icon {
+    align-items: center;
+    display: flex;
+}
+.innerlist .bi {
+    font-size: 42px;
+    margin: 0 25px;
+    color: red;
+}
+.innerlist .inner-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+footer .menu-list h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+footer .menu-list li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: -26px;
+}
+footer .menu-list li .bi {
+    color: red;
+    font-size: 18px;
+}
+footer .menu-list li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+footer .menu-list li a:hover {
+    color: red;
+}
+.copyright a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+.copyright a:hover {
+color: red;
+cursor: pointer;
+transition:0.2s;
+}
